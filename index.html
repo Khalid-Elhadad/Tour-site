@@ -1,0 +1,371 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Site</title>
+    <!--custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- fontawesom cd liberary -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Google font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:wght@200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="header">
+      <a href="" class="logo"> travel <span>.</span></a>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#Home" class="active">Home</a></li>
+          <li><a href="#Feature">Feature</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Review">Review</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+      <i class="fas fa-bars icon-bars" onclick="showMenu()"></i>
+    </header>
+    <!-- End Header -->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- Start home section  -->
+    <section class="home" id="Home">
+      <div class="video">
+        <video src="img/home-video.mp4" loop muted autoplay></video>
+      </div>
+      <div class="content">
+        <h1>Explore New Places, Adventure Awaits.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+          recusandae architecto itaque quia rerum ut possimus beatae
+          consequatur. Officia, omnis?
+        </p>
+      </div>
+      <div class="form-container">
+        <form action="">
+          <h3>Search Your Destination</h3>
+          <span>Location</span>
+          <input type="text" placeholder="place tou want to visit" />
+          <span>Guest Name</span>
+          <input type="number" placeholder="Number of people" />
+          <span>Arrival</span>
+          <input type="date" />
+          <span>Departure</span>
+          <input type="date" />
+          <input class="btn" type="submit" value="Search" />
+        </form>
+      </div>
+    </section>
+    <!-- End home section  -->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- Start  Feature section  -->
+    <section class="feature" id="Feature">
+      <h1 class="heading"><span>F</span>eatured <span>L</span>ocations</h1>
+      <div class="card-container">
+        <div class="card">
+          <span class="discount">-35%</span>
+          <img src="img/featued-img-1.jpg" alt="" />
+          <div class="content">
+            <h3 class="title">Hawaii</h3>
+            <p>
+              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam
+              Animi Consequuntur Ea Molestias Illo. Porro Error Facilis
+              Obcaecati. Quisquam, Placeat
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href=""><button class="btn">Check out</button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/featued-img-2.jpg" alt="" />
+          <div class="content">
+            <h3 class="title">Egypt</h3>
+            <p>
+              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam
+              Animi Consequuntur Ea Molestias Illo. Porro Error Facilis
+              Obcaecati. Quisquam, Placeat
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href=""><button class="btn">Check out</button></a>
+          </div>
+        </div>
+        <div class="card">
+          <span class="discount">-45%</span>
+          <img src="img/featued-img-3.jpg" alt="" />
+          <div class="content">
+            <h3 class="title">India</h3>
+            <p>
+              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam
+              Animi Consequuntur Ea Molestias Illo. Porro Error Facilis
+              Obcaecati. Quisquam, Placeat
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href=""><button class="btn">Check out</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- Start  About section  -->
+    <section class="about" id="About">
+      <h1 class="heading"><span>A</span>bout <span>U</span>s</h1>
+      <div class="row">
+        <div class="image">
+          <img src="img/about-img.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Why Choose Us?</h3>
+          <p>
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Totam Quam
+            Aut Tenetur Quaerat Omnis Perferendis Nesciunt Quidem Odit Quod! Ex
+          </p>
+          <br />
+          <p>
+            Excepturi Temporibus Iste Assumenda, Odio Magnam Laudantium Minus
+            Asperiores Distinctio! Lorem, Ipsum Dolor Sit Amet Consectetur
+            Adipisicing Elit. At, Itaque.
+          </p>
+          <a href=""><button class="btn btn1">Read More</button></a>
+          <a href=""><button class="btn">Get Started</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- End  About section  -->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- Start  Gallery section  -->
+    <section class="gallery" id="Gallery">
+      <h1 class="heading"><span>G</span>allery</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/gallery-img-1.jpg" alt="" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/gallery-img-2.jpg" alt="" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/gallery-img-3.jpg" alt="" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/gallery-img-4.jpg" alt="" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/gallery-img-5.jpg" alt="" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/gallery-img-6.jpg" alt="" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End  Gallery section  -->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- Start  Review section  -->
+    <section class="review" id="Review">
+      <h1 class="heading"><span>R</span>eview</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="img/pic-2.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Someone's Name</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              quia libero possimus incidunt laborum laboriosam exercitationem
+              eveniet dolorem excepturi magni.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/pic-3.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Someone's Name</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              quia libero possimus incidunt laborum laboriosam exercitationem
+              eveniet dolorem excepturi magni.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/pic-4.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Someone's Name</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              quia libero possimus incidunt laborum laboriosam exercitationem
+              eveniet dolorem excepturi magni.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End  Review section  -->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- Start Contact Section -->
+    <section class="contact" id="Contact">
+      <h1 class="heading"><span>c</span>ontact <span>u</span>s</h1>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13707.491589253552!2d30.8269739!3d30.806198499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f634772debf7f3%3A0xe76b153583505962!2sAd%20Daljamun%2C%20Ad%20Delgamon%2C%20Kafr%20El%20Zayat%2C%20Gharbia%20Governorate!5e0!3m2!1sen!2seg!4v1658292626676!5m2!1sen!2seg"
+        width="100%"
+        height="300"
+        style="border: 0; outline: none"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="row">
+        <div class="contact-info">
+          <div class="box">
+            <h3><i class="fas fa-home"></i>Address</h3>
+            <p>tanta</p>
+            <br />
+            <p>Kafr-Elzayat</p>
+            <p>6114</p>
+          </div>
+          <div class="box">
+            <h3><i class="fas fa-envelope"></i>E-mail</h3>
+            <p>mr.Khalid.alhadad@gmail.com</p>
+          </div>
+          <div class="box">
+            <h3><i class="fas fa-phone"></i>phone</h3>
+            <p>01000461446</p>
+          </div>
+        </div>
+        <div class="form-container">
+          <form action="">
+            <h3>Get In Touch</h3>
+            <div class="input-box">
+              <input type="text" placeholder="Full Name" />
+              <input type="e-mail" placeholder="E-Mail" />
+            </div>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="message"
+            ></textarea>
+            <input type="submit" value="Message" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <!-- <------------------------------------------------------------------------------------------------------------->
+    <section class="newsletter">
+      <h3>Sign Up 25% Discount</h3>
+      <p>
+        Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Totam
+        Provident Saepe Vel Pariatur Incidunt Libero Quo Nisi Ratione. Ea,
+        Corporis.
+      </p>
+      <form action="">
+        <input type="email" placeholder="Enter your E-mail" />
+        <input type="submit" value="Sign Up" />
+      </form>
+    </section>
+    <section class="footer">
+      <h1 class="credit">
+        Created By <span>Mr.Khalid ELhadad</span> | All Rights Reserved.
+      </h1>
+      <div class="icons">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-github"></a>
+      </div>
+    </section>
+    <!-- jquary liberary -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- custom js file link -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
